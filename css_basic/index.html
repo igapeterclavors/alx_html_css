@@ -2,38 +2,51 @@
 <html lang="en">
         <head>
                 <title>My First Webpage</title>
-                <meta charset="utf-8">
+                <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0>
                 <link href="base.css" rel="stylesheet">
                 <link href="styles.css" rel="stylesheet">
         </head>
-        <body>
-            <header>
-                <ul>
-                    <li><a href="base_index.html">Base Index</a></li>
-                    <li><a href="index.html">Index</a></li>
-                    <li><a href="tweets.html">Tweets</a></li>
-                </ul>
+        <body class="flex-container flex-container-body works_on_smartphone">
+            <header class="flexbox-items">
+                <div class="header-logo">
+                    <a href="#"><img src="book-logo.png" alt="logo"></a>
+                </div>
+                <nav class="navbar-menu">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="/html_basic/base_index.html" class="nav-link">Base Index</a></li>
+                        <li class="nav-item"><a href="index.html" class="nav-link">Index</a></li>
+                        <li class="nav-item"><a href="tweets.html" class="nav-link">Tweets</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </nav>
             </header>
-            <h1>Je&Je SCHOOL</h1>
-            <p>Welcome to Je&Je Kindergaten where we nurture and prepare children for abetter tomorrow </p> 
-            <h2>Our vision</h2>
-            <p>Welcome to Je&Je Kindergaten where we nurture and prepare children for abetter tomorrow </p>
-            <h3>Our mission </h3>/h3>
-            <p>Welcome to Je&Je Kindergaten where we nurture and prepare children for abetter tomorrow </p>
 
+            <div>
+                <h1>Je&Je SCHOOL</h1>
+                <p>Welcome to Je&Je Kindergaten where we nurture and prepare children for abetter tomorrow </p> 
+                <h2>Our vision</h2>
+                <p>Welcome to Je&Je Kindergaten where we nurture and prepare children for abetter tomorrow </p>
+                <h3>Our mission </h3>
+                <p>Welcome to Je&Je Kindergaten where we nurture and prepare children for abetter tomorrow </p>
+            </div>
             <!-- Page Main section -->
-                <main>
-                    <article>
+                <main class="flex-container flex-container-main">
+                    <article class="flexbox-items flexbox-items-article">
                         <a href="https://www.watchdoguganda.com">
                             <img src="https://media.istockphoto.com/id/1408596915/photo/employees-must-complete-the-online-survey-form-answer-the-test-questions-marked-checklist-on.webp?b=1&s=170667a&w=0&k=20&c=_FLe1LqsLjm0v7JGFnqJFedzvm-TIDlpAh9hiy1KsWA=" alt="project Image">
                         </a>
                         <h3><a href="tweets.html">Go to tweets Page</a></h3>
                     </article>
-                    <aside>
-                            <p>just reading for now “placeholder to add comment thread later”.</p>
+
+                    <aside class="flexbox-items flexbox-items-aside">
+                        <h3>What is Lorem Ipsum?</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </p>
                     </aside>
 
-                    <article>
+                    <!-- <article class="flexbox-items flexbox-items-article">
                         <table>
                             <thead>
                                 <tr>
@@ -65,13 +78,13 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </article>
+                    </article> -->
 
             </main>
 
         <!-- Page footer section -->
         <footer>
-            Made by Peter Clavors - <a href="#" target="_blank">here</a>.   
-    </footer>
-        </body>
+            <p>Made by Peter Clavors - <a href="#" target="_blank">here</a></p> 
+        </footer>
+    </body>
 </html>

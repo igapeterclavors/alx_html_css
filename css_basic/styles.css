@@ -1,0 +1,54 @@
+.flex-container{
+    display: flex;
+}
+.flex-container-body{
+    flex-direction: column;
+}
+.flex-container-main{
+    flex-direction: row;
+    flex: auto;
+}
+
+.flexbox-items{
+    
+}
+.flexbox-items-article{
+    flex: 2;
+    overflow-y: auto
+}
+
+.flexbox-items-aside{
+    flex: 1;
+    overflow-y: auto
+}
+
+/* Header styling */
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: black;
+    height: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav li {
+    list-style: none;
+    display: flex;
+}
+.nav a{
+    color: #ffffff;
+    display: flex;
+    text-decoration: none;
+}
+
+.header-logo img {
+    height: 45px;
+}
