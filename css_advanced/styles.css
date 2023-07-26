@@ -1,0 +1,110 @@
+@font-face {
+    font-family: source sans pro;
+    src: url(fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+@font-face {
+    font-family: Spin Cycle OT;
+    src: url(fonts/Spin-Cycle-OT/spincycle_ot.otf);
+}
+body, html {
+    height: auto;
+    margin: 0%;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+}
+.logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+header li {
+    list-style: none;
+    display: inline-block; 
+}
+header li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: source sans pro;
+    padding-left: 30px;
+}
+.hero-section {
+    background-image: url(images/Object.png);
+    height: 50%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-subsection {
+    text-align: center;
+}
+.hero-text h1 {
+    font-family: source sans pro;
+    font-size: 120px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 200px;
+}
+.sub-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.sub-links li {
+    display: inline-block;
+    list-style: none;
+}
+.sub-links li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+    font-size: 12px;
+    font-family: source sans pro;
+}
+.reg-button {
+    border-radius: 20px;
+    width: 162px;
+    border: none;
+    background-color: #C271FF;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-family: source sans pro;
+}
+.hero-text0 {
+   margin-top: 300px; 
+}
+.hero-text0 p {
+    font-family: source sans pro;
+    font-size: 32px;
+    color: white;
+    padding-bottom: 20px; 
+ }
+.hero-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+.hero-images p {
+    font-family: source sans pro;
+    font-size: 16px;
+    font: weight 400px;
+    color: white;
+    text-align: center;
+    line-height: 27px;
+    font-style: italic;
+}
+.hero-images h3 {
+    font-family: source sans pro;
+    font-size: 18px;
+    font-weight:900px;
+    color: white;
+    text-align: center;
+    line-height: 27px;
+}
