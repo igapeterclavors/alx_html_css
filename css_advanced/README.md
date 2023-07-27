@@ -1,4 +1,5 @@
 ALX Advanced CSS project
+
 This project is about creating a School page. 
 It aims at leavraging the potential of HTML and CSS to impliment a prototype created with FIGMA,
 
@@ -10,6 +11,7 @@ PASTE this link into your browser to access prototype
 
 
 Tasks
+
 0. README and objectives!
 1. Import the style
 3. Quotes
