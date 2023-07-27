@@ -15,6 +15,7 @@ body, html {
 header {
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
 }
 .logo a {
     display: flex;
@@ -78,6 +79,7 @@ header li a {
     font-size: 14px;
     font-family: source sans pro;
     margin-top: 20px;
+    box-shadow: 5px 10px 50px black;
 }
 .hero-text0 {
    margin-top: 300px; 
@@ -124,20 +126,23 @@ header li a {
 .quote {
     display: flex;
     justify-content: center;
-    text-align: justify;
+    text-align: left;
     gap:20px;
 }
 .quote-text blockquote {
     font-family: source sans pro;
     font-size: 22px; 
     color:white;
+    margin-bottom: 0px;
 }
 .quote-text p {
     font-style: italic;
     font-size: 22px;
+    font-family: source sans pro;
     color:white;
     padding-left: 40px;
-    font-weight: lighter;
+    font-weight:100;
+    margin-top: 0px;
 }
 
 
@@ -169,7 +174,7 @@ header li a {
     line-height: 24px;
     font-weight: bold;
     text-align: left;
-    padding-left: 25px;
+    padding-left: 20px;
 }
 .tutorials p {
     color: #B1B6BC;
@@ -178,14 +183,14 @@ header li a {
     font-family: source sans pro;
     line-height: 24px;  
     text-align: left;
-    padding-left: 25px;
+    padding-left: 20px;
     padding-right: 25px;
 }
 .author-image {
     display: flex;
     justify-content: left;
     text-align: left;
-    padding-left: 25px;
+    padding-left: 20px;
 }
 .author-image img {
     width: 30px;
@@ -199,7 +204,7 @@ header li a {
 .rate-video {
     display: flex;
     justify-content: space-between;
-    padding-left: 25px;
+    padding-left: 20px;
     padding-top: 20px;
 }
 .rate-video p {
