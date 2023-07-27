@@ -10,6 +10,8 @@ body, html {
     height: auto;
     margin: 0%;
 }
+
+/* css for the hero and header section */
 header {
     display: flex;
     justify-content: space-around;
@@ -75,6 +77,7 @@ header li a {
     padding: 10px;
     font-size: 14px;
     font-family: source sans pro;
+    margin-top: 20px;
 }
 .hero-text0 {
    margin-top: 300px; 
@@ -107,4 +110,220 @@ header li a {
     color: white;
     text-align: center;
     line-height: 27px;
+}
+
+
+
+
+/* css for the testimonial section */
+.quote-section {
+    background-color: #C271FF;
+    padding: 100px 200px 100px 200px;
+    margin-bottom: 0px;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    gap:20px;
+}
+.quote-text blockquote {
+    font-family: source sans pro;
+    font-size: 22px; 
+    color:white;
+}
+.quote-text p {
+    font-style: italic;
+    font-size: 22px;
+    color:white;
+    padding-left: 40px;
+    font-weight: lighter;
+}
+
+
+
+
+/* css for the tutorial section */
+.tutorials-section {
+    text-align: center;
+    padding: 50px;
+}
+.tutorials-section h1 {
+    color: black;
+    font-size: 32px;
+    font-family: source sans pro;
+    padding-bottom: 50px;
+}
+.tutorials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.tutorials h3 {
+    color: black;
+    font-size: 16px;
+    font-family: source sans pro;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 25px;
+}
+.tutorials p {
+    color: #B1B6BC;
+    font-size: 14px;
+    line-height: auto;
+    font-family: source sans pro;
+    line-height: 24px;  
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.author-image {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    padding-left: 25px;
+}
+.author-image img {
+    width: 30px;
+    height: 30px;
+}
+.author-image h3 {
+    color: #C271FF;
+    margin-top: 0px;
+    
+}
+.rate-video {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.rate-video p {
+    color: #C271FF;
+    text-align: right;
+    padding-right: 25px;
+    margin-top: 0px;
+}
+.rate-video img {
+    width: 107px;
+    height: 15px;
+}
+
+
+
+
+/* css for the membership section */
+.member-section {
+    background-color: #071629;
+    text-align: center;
+    padding: 50px;
+}
+.member-section h1 {
+    color: white;
+    font-size: 32px;
+    font-family: source sans pro;
+    padding-bottom: 50px;
+}
+.member-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+}
+.member-items h3 {
+    color: white;
+    font-size: 16px;
+    font-family: source sans pro;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 20px;
+}
+.member-items p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: auto;
+    font-family: source sans pro;
+    line-height: 24px;  
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/* css for the FAQ section */
+.question-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+.question-section h1 {
+    color: black;
+    font-size: 60px;
+    font-family: source sans pro;
+    font-weight: lighter;
+}
+.questions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* gap: 1000px 200px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+
+}
+.questions h3 {
+    color: black;
+    font-size: 16px;
+    font-family: source sans pro;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+.questions p {
+    color: #B1B6BC;
+    font-size: 14px;
+    line-height: auto;
+    font-family: source sans pro;
+    line-height: 24px;  
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 150px;
+}
+
+
+/* css for the footer section */
+.footer-section {
+    background-color: #071629;
+    text-align: center;
+    padding: 60px;
+}
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+.footer-items li {
+    list-style: none;
+    display: inline;
+    padding-left: 15px;
+}
+.social-icons img {
+    height: 30px;
+}
+.footer-section p {
+  color: #B1B6BC;
+  font-size: 12px;
+  font-family: source sans pro;
+  padding: 50px 0px 0px 0px;
 }
