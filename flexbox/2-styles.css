@@ -378,10 +378,9 @@
 
   /* Section Latest news ============================= */
 
-  /* Target the row class inside section-latest-news */
-.section-latest-news .row {
-  /* Set the flex-direction to row-reverse */
-  flex-direction: row-reverse;
+  .section-latest-news .row {
+    /* Set the flex-direction to row-reverse */
+    flex-direction: row-reverse;
 }
   
   /*** 4. CARD ***/
